@@ -8,14 +8,17 @@
   <body>
     <div class="nav-bar"></div>
 
-<div id="app">
-  <div class="cart">
-    <p>Cart({{ cart.length }})</p>
-  </div>
-  <product :premium="premium" @add-to-cart="updateCart"></product>
-</div> 
+    <div id="app">
+      <div class="cart">
+        <p>Cart({{ cart.length }})</p>
+      </div>
+      <product :premium="premium" @add-to-cart="updateCart"></product>
+    </div>
+    <div>
+      <h3>Trần Quang Đại</h3>
+    </div>
 
- <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

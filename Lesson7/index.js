@@ -2,7 +2,7 @@ var app = new Vue({
   el: '#app',
   data: {
       product: 'Socks',
-      brand: 'Vue Mastery',
+      brand: 'Tran Dai \'s',
       selectedVariant: 0,
       details: ['80% cotton', '20% polyester', 'Gender-neutral'],
       variants: [
